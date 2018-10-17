@@ -9,8 +9,10 @@ function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 800, height: 600})
 
+  const swaggerUiAssetPath = require("swagger-ui-dist").getAbsoluteFSPath();
+
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile(require('path').join(swaggerUiAssetPath,'index.html'));
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

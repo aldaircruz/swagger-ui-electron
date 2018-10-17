@@ -1,22 +1,22 @@
 {
-  "name": "electron-quick-start",
+  "name": "swagger-ui-electron",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "swagger-ui for Desktop",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/aldaircruz/swagger-ui-electron",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "swagger-ui"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^3.0.3"
+  },
+  "dependencies": {
+    "swagger-ui-dist": "^3.19.3"
   }
 }
